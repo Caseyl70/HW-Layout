@@ -1,3 +1,9 @@
+clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
@@ -19,4 +25,29 @@ nav {
     /* spacing outside is margin */
     /* spacing inside is padding */
     margin-bottom: 10px;
+}
+
+Section {
+    background-color: #ebebeb;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+article {
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ebebeb;
+    background-color: #777;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+aside {}
+
+p {
+    color: #777;
+    background-color: #ebebeb
 }
